@@ -237,7 +237,7 @@ a.lcars-debug{
 
 /* MEDIA STYLING FOR SMALL SCREENS */
 @media screen and (max-device-width:400px) {
-	body{font-family:verdana;font-size:12px;overflow:auto!important;}
+	/* body{font-family:verdana;font-size:12px;overflow:auto!important;}
 	h1{font-size: 26px;}
 	h2{font-size: 22px;}
 	h3{font-size: 18px;}
@@ -249,7 +249,7 @@ a.lcars-debug{
 	a.lcars-debug{position:relative;display:none!important;}
 	div.lcars-debug{position:relative:}
 	.button{font-size:12px!important;}
-	.B_titleR, .B_titleL{font-size:12px!important;line-height:35px;}
+	.B_titleR, .B_titleL{font-size:12px!important;line-height:35px;} */
 }
 /* // MEDIA STYLING FOR SMALL SCREENS */
 
