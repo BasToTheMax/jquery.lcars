@@ -24,11 +24,24 @@
 		});
 	});
 	</script>
+	<style>
+
+.parent {
+  position: relative;
+}
+.child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+	</style>
 	<noscript><h1><font color="red">Javascript is required to view this page!</font></h1></noscript>
 </head>
-<body>
+<body class="parent">
 	
-	<div id="content" style="text-align:center">
+	<div id="content child" style="text-align:center">
 
 		<img src="graphics/UFP.bmp" alt="United Federation of Planets">
 		<h1><font color="#f90">The LCARS Computer Network</font></h1>
